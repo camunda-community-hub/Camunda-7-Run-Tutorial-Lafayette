@@ -25,7 +25,7 @@ client.subscribe("SendLetter", async function({ task, taskService }) {
     await taskService.complete(task, processVariables);
   }else{
     // throw a BPMN error
-    await taskService.handleBpmnError(task, "REFUSE_HELP", "Sorry! We're super busy, you are on your own.", variables);
+    await taskService.handleBpmnError(task, "REFUSE_HELP", "Sorry! We're super busy, you are on your own.", processVariables);
   }
 
 

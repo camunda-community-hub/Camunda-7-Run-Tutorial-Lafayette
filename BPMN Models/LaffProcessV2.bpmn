@@ -88,13 +88,13 @@
         <di:waypoint x="215" y="270" />
         <di:waypoint x="270" y="270" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="#000" bioc:fill="#fff">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="179" y="252" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="155" y="295" width="85" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_0mqqzc0_di" bpmnElement="Event_0mqqzc0" bioc:stroke="#000" bioc:fill="#fff">
+      <bpmndi:BPMNShape id="Event_0mqqzc0_di" bpmnElement="Event_0mqqzc0" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="1012" y="252" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="994" y="295" width="75" height="27" />
