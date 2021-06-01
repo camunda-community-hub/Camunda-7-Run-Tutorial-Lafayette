@@ -13,12 +13,20 @@ const client = new Client(config);
 client.subscribe("SendLetter", async function({ task, taskService }) {
   // Put your business logic
   const bookTitle = task.variables.get("bookTitle")
-  console.log("Reminder to Read: "+ bookTitle);
+  console.log("** Reminder to Read: "+ bookTitle + "**");
 
   const austriaResponse = "Sorry Laff can't help. BTW, Prussia wants a quick word with you..."
   const processVariables = new Variables();
   processVariables.set("austriaResponse", austriaResponse);
 
-  // complete the task
-  await taskService.complete(task, processVariables);
+  
+  if(bookTitle.includes("Austria")){
+    // complete the task
+    await taskService.complete(task, processVariables);
+  }else{
+    // throw a BPMN error
+    await taskService.handleBpmnError(task, "REFUSE_HELP", "Sorry! We're super busy, you are on your own.", variables);
+  }
+
+
 });

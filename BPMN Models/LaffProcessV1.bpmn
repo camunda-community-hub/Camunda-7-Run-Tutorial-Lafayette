@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_10wn1z1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="4.8.1" modeler:executionPlatform="Camunda Platform" modeler:executionPlatformVersion="7.15.0">
-  <bpmn:process id="LaffayetteEscape" name="Laffayette Escape" isExecutable="true">
+  <bpmn:process id="LafayetteEscape" name="Lafayette Escape" isExecutable="true">
     <bpmn:startEvent id="StartEvent_1" name="Lafayette needs to escape France">
       <bpmn:outgoing>Flow_17qlkln</bpmn:outgoing>
     </bpmn:startEvent>
@@ -25,22 +25,22 @@
     <bpmn:sequenceFlow id="Flow_09lul9c" sourceRef="Activity_1rwonvw" targetRef="Activity_1tj82a3" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
-    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="LaffayetteEscape">
-      <bpmndi:BPMNEdge id="Flow_17qlkln_di" bpmnElement="Flow_17qlkln">
-        <di:waypoint x="215" y="120" />
-        <di:waypoint x="270" y="120" />
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="LafayetteEscape">
+      <bpmndi:BPMNEdge id="Flow_09lul9c_di" bpmnElement="Flow_09lul9c">
+        <di:waypoint x="370" y="120" />
+        <di:waypoint x="440" y="120" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_0n4666j_di" bpmnElement="Flow_0n4666j">
         <di:waypoint x="720" y="120" />
         <di:waypoint x="792" y="120" />
       </bpmndi:BPMNEdge>
-      <bpmndi:BPMNEdge id="Flow_09lul9c_di" bpmnElement="Flow_09lul9c">
-        <di:waypoint x="370" y="120" />
-        <di:waypoint x="440" y="120" />
-      </bpmndi:BPMNEdge>
       <bpmndi:BPMNEdge id="Flow_04na0g3_di" bpmnElement="Flow_04na0g3">
         <di:waypoint x="540" y="120" />
         <di:waypoint x="620" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_17qlkln_di" bpmnElement="Flow_17qlkln">
+        <di:waypoint x="215" y="120" />
+        <di:waypoint x="270" y="120" />
       </bpmndi:BPMNEdge>
       <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="179" y="102" width="36" height="36" />
@@ -54,14 +54,14 @@
           <dc:Bounds x="774" y="145" width="75" height="27" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ioy0rd_di" bpmnElement="Activity_1rwonvw" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
+        <dc:Bounds x="270" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1bvmi8j_di" bpmnElement="Activity_1tj82a3" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="440" y="80" width="100" height="80" />
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Activity_1dtj4fc_di" bpmnElement="Activity_0nkz657" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
         <dc:Bounds x="620" y="80" width="100" height="80" />
-      </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Activity_0ioy0rd_di" bpmnElement="Activity_1rwonvw" bioc:stroke="rgb(30, 136, 229)" bioc:fill="rgb(187, 222, 251)">
-        <dc:Bounds x="270" y="80" width="100" height="80" />
       </bpmndi:BPMNShape>
     </bpmndi:BPMNPlane>
   </bpmndi:BPMNDiagram>
