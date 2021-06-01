@@ -1,0 +1,24 @@
+{
+  "type": "default",
+  "components": [
+    {
+      "key": "help",
+      "label": "Who can help?",
+      "type": "textfield",
+      "description": "Who do you want to ask for help?",
+      "validate": {
+        "required": true,
+        "pattern": "Jean-Xavier|Austria"
+      }
+    },
+    {
+      "key": "bookTitle",
+      "label": "Book to Pack",
+      "type": "textfield",
+      "description": "What book do you want to bring for the trip?",
+      "validate": {
+        "required": true
+      }
+    }
+  ]
+}
