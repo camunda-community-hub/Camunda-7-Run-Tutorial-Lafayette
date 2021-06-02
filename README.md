@@ -26,17 +26,17 @@ The process is broken up into 4 parts and in the end our dear friend Lafayette w
 ## Part One: Lafayette Prepares for Escape
 Creating Camunda forms to be used in User Tasks
 
-![LaffV1](./images/LaffProcessV1.png)
+![LaffV1](./Images/LaffProcessV1.png)
 
 ## Part Two: Lafayette sends for help
-Creating an XOR gateway and adding a [JavaScript worker](.\Worker\SendLetterToAustria.js)
+Creating an XOR gateway and adding a [JavaScript worker](https://github.com/NPDeehan/Camunda-Run-Tutorial-Lafayette/blob/main/Worker/SendLetterToAustria.js)
 
-![LaffV2](./images/LaffProcessV2.png)
+![LaffV2](./Images/LaffProcessV2.png)
 
 ## Part Three: Lafayette tries to escape
 Use a timer and a boundary event on a user task
-![LaffV3](./images/LaffProcessV3.png)
+![LaffV3](./Images/LaffProcessV3.png)
 
 ## Part Four
-Throw an error with from a [JavaScript worker](.\Worker\SendLetterToAustriaError.js) and catch it on a boundary event
-![LaffV4](./images/LaffProcessV4.png)
+Throw an error with from a [JavaScript worker](https://github.com/NPDeehan/Camunda-Run-Tutorial-Lafayette/blob/main/Worker/SendLetterToAustriaError.js) and catch it on a boundary event
+![LaffV4](./Images/LaffProcessV4.png)
