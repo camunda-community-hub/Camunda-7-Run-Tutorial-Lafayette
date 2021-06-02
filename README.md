@@ -1,10 +1,9 @@
 # Camunda Run Tutorial Lafayette
-![Video Tutorial Badge](https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)
-![](https://img.shields.io/badge/Educational%20Tooling-Project%20for%20getting%20started%20with%20Camunda%20for%20educators-%239F2B68)
 
 This project is used as part of a video tutorial in order to show how you can build a Camunda process for the Camunda Platform Run distribution.
 
-
+![Video Tutorial Badge](https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)
+<img src="https://img.shields.io/badge/Camunda%20DevRel%20Project-Created%20by%20the%20Camunda%20Developer%20Relations%20team-0Ba7B9"> 
 
 ## What is this all about?
 In other examples I've created an officiant process to help [Gilbert du Motier, Marquis de Lafayette](https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette) get involved in his favorite pass time of overthrowing monarchies. Now it's only fair that we help him as he tries to escape revolutionary France. 
