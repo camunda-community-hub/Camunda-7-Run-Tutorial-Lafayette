@@ -6,7 +6,7 @@ This project is used as part of a video tutorial in order to show how you can bu
 <img src="https://img.shields.io/badge/Camunda%20DevRel%20Project-Created%20by%20the%20Camunda%20Developer%20Relations%20team-0Ba7B9"> 
 
 ## What is this all about?
-In other examples I've created an officiant process to help [Gilbert du Motier, Marquis de Lafayette](https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette) get involved in his favorite pass time of overthrowing monarchies. Now it's only fair that we help him as he tries to escape revolutionary France. 
+In other examples I've created a process to help [Gilbert du Motier, Marquis de Lafayette](https://en.wikipedia.org/wiki/Gilbert_du_Motier,_Marquis_de_Lafayette) get involved in his favorite pass time of overthrowing monarchies. Now it's only fair that we help him as he tries to escape revolutionary France. 
 
 The process is broken up into 4 parts and in the end our dear friend Lafayette will not be able to escape some kind of incarceration, but at least we can get him there will some efficiency. 
 
