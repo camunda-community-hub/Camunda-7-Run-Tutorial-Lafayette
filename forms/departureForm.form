@@ -2,6 +2,15 @@
   "type": "default",
   "components": [
     {
+      "key": "bookTitle",
+      "label": "Book to Pack",
+      "type": "textfield",
+      "description": "What book do you want to bring for the trip?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
       "key": "help",
       "label": "Who can help?",
       "type": "textfield",
@@ -9,15 +18,6 @@
       "validate": {
         "required": true,
         "pattern": "Jean-Xavier|Austria"
-      }
-    },
-    {
-      "key": "bookTitle",
-      "label": "Book to Pack",
-      "type": "textfield",
-      "description": "What book do you want to bring for the trip?",
-      "validate": {
-        "required": true
       }
     }
   ]
