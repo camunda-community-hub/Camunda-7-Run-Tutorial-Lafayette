@@ -1,13 +1,13 @@
-# Camunda Run Tutorial Lafayette
+# Camunda 7 Run Tutorial Lafayette
 
-This project is used as part of a video tutorial in order to show how you can build a Camunda process for the Camunda Platform Run distribution.
+This project is used as part of a video tutorial in order to show how you can build a Camunda process for the Camunda Platform 7 Run distribution. Be sure to check the version of Camunda you're using because a lot of what is detailed here will only work for Camunda Platform 7 and not Camunda Platform 8.
 
 ![Video Tutorial Badge](https://img.shields.io/badge/Tutorial%20Reference%20Project-Tutorials%20for%20getting%20started%20with%20Camunda-%2338A3E1)
 <img src="https://img.shields.io/badge/Camunda%20DevRel%20Project-Created%20by%20the%20Camunda%20Developer%20Relations%20team-0Ba7B9"> 
 
 You can click below to follow the complete tutorial for this project.
 
-[![Camunda Platfrom Run Tutorial](http://img.youtube.com/vi/TlFojzQNopA/0.jpg)](https://www.youtube.com/playlist?list=PLJG25HlmvsOX8TiIGUZcVW-ez053YsOX0)
+[![Camunda Platfrom 7 Run Tutorial](http://img.youtube.com/vi/TlFojzQNopA/0.jpg)](https://www.youtube.com/playlist?list=PLJG25HlmvsOX8TiIGUZcVW-ez053YsOX0)
 
 
 ## What is this all about?
